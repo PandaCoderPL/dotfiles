@@ -17,6 +17,7 @@ Repository with my dotfiles.
 
 * [Bash](http://www.gnu.org/software/bash/) - [
 bashrc](home/.bashrc)
+* [Vim](https://www.vim.org/) - [.vimrc](home/.vimrc)
 
 ## Downloading
 

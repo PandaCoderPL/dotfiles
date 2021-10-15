@@ -1,0 +1,17 @@
+set autoindent
+set autoread
+set background=dark
+set colorcolumn=80
+set confirm
+set cursorcolumn
+set cursorline
+set cursorlineopt=number
+set expandtab
+set fsync
+set history=0
+set list
+set number
+set ruler
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
