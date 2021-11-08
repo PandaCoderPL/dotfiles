@@ -17,6 +17,7 @@ Repository with my dotfiles.
 
 * [Bash](http://www.gnu.org/software/bash/) - [
 .bashrc](home/.bashrc)
+* [Git](https://git-scm.com/) - [config](home/.config/git/config)
 * [Termux](https://termux.com/) - [termux.properties](home/.termux/termux.properties)
 * [Vim](https://www.vim.org/) - [.vimrc](home/.vimrc)
 

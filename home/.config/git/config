@@ -1,0 +1,59 @@
+[alias]
+	a = add
+	ba = branch
+	bach = "!f() { \
+		git ba \"$1\" && \
+		git ch \"$1\"; \
+		}; f"
+	bd = ba -d
+	bfd = ba -D
+	ch = checkout
+	cl = clone
+	cl1 = cl --depth=1
+	co = commit -sm
+	coa = "!f() { \
+		local message=\"$1\"; \
+		local author=\"$2\"; \
+		git co \"${message}\" --author \"${author}\"; \
+		}; f"
+	cota = "!f() { \
+		local version=\"v$(cat VERSION)\"; \
+		git co \"$1\" && \
+		git ta \"${version}\"; \
+		}; f"
+	fu = "!f() { \
+		git fetch upstream && \
+		git ch master && \
+		git rebase upstream/master; \
+		}; f"
+	fup = fu && p
+	p = push
+	pa = push --all
+	pt = push --tags
+	pat = pa && pt
+	r = remote
+	ra = r add
+	rau = r set-url --add
+	rl = r -v
+	rr = r remove
+	s = status
+	t = tag
+	ta = "!f() { \
+		git t -am \"$1\" \"$1\"; \
+		}; f"
+	td = t -d
+	tl = t -l
+[commit]
+	gpgSign = true
+[core]
+	editor = vim
+	pager = less
+[include]
+	path = ~/.config/git/config-secret
+[init]
+	defaultBranch = main
+[http]
+	proxy = socks5h://127.0.0.1:9050
+[tag]
+	forceSignAnnotated = true
+	gpgSign = true
