@@ -1,3 +1,13 @@
+# Tmux
+if [[ -z "${TMUX}" ]]; then
+    if ! tmux has-session; then
+        tmux new-session
+    else
+        tmux new-window
+    fi
+    exit
+fi
+
 # Config
 alias bashconfig='vim ${HOME}/.bashrc'
 alias gitconfig='git config --global --edit'
