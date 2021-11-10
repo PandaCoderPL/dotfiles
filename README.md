@@ -19,6 +19,7 @@ Repository with my dotfiles.
 .bashrc](home/.bashrc)
 * [Git](https://git-scm.com/) - [config](home/.config/git/config)
 * [Termux](https://termux.com/) - [termux.properties](home/.termux/termux.properties)
+* [Tmux](https://github.com/tmux/tmux) - [.tmux.conf](home/.tmux.conf)
 * [Vim](https://www.vim.org/) - [.vimrc](home/.vimrc)
 
 ## Downloading
