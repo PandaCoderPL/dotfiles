@@ -1,6 +1,7 @@
 # Tmux
 if [[ -z "${TMUX}" ]]; then
     if ! tmux has-session; then
+        eval $(ssh-agent)
         tmux new-session
     else
         tmux new-window
