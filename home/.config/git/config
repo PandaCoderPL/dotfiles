@@ -33,7 +33,9 @@
 	pat = pa && pt
 	r = remote
 	ra = r add
-	rau = r set-url --add
+	ru = r set-url
+	rua = ru --add
+	rud = ru --delete
 	rl = r -v
 	rr = r remove
 	s = status
