@@ -30,7 +30,7 @@
 	p = push
 	pa = push --all
 	pt = push --tags
-	pat = pa && pt
+	pat = !git pa && git pt
 	r = remote
 	ra = r add
 	ru = r set-url
