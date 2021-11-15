@@ -1,0 +1,21 @@
+AvoidDiskWrites 1
+ControlPort 0
+ControlSocket 0
+HardwareAccel 1
+NoExec 1
+SafeLogging 1
+Sandbox 1
+TruncateLogFile 1
+
+AllowNonRFC953Hostnames 0
+CircuitPadding 1
+ReducedCircuitPadding 1
+ClientOnly 1
+ClientUseIPv6 1
+ConnectionPadding 1
+HTTPTunnelPort 8118
+ReducedConnectionPadding 1
+DownloadExtraInfo 0
+EnforceDistinctSubnets 1
+SocksPort 9050 IsolateClientAddr IsolateSOCKSAuth IsolateClientProtocol IsolateDestPort IsolateDestAddr
+UseEntryGuards 1

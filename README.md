@@ -21,6 +21,7 @@ Repository with my dotfiles.
 * [SSH](https://www.openssh.com/) - [config](home/.ssh/config)
 * [Termux](https://termux.com/) - [termux.properties](home/.termux/termux.properties)
 * [Tmux](https://github.com/tmux/tmux) - [.tmux.conf](home/.tmux.conf)
+* [Tor](https://www.torproject.org/) - [torrc](usr/etc/tor/torrc)
 * [Vim](https://www.vim.org/) - [.vimrc](home/.vimrc)
 
 ## Downloading
