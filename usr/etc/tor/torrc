@@ -2,9 +2,9 @@ AvoidDiskWrites 1
 ControlPort 0
 ControlSocket 0
 HardwareAccel 1
-NoExec 1
+NoExec 0
 SafeLogging 1
-Sandbox 1
+Sandbox 0
 TruncateLogFile 1
 
 AllowNonRFC953Hostnames 0
