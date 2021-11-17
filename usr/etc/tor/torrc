@@ -19,3 +19,5 @@ DownloadExtraInfo 0
 EnforceDistinctSubnets 1
 SocksPort 9050 IsolateClientAddr IsolateSOCKSAuth IsolateClientProtocol IsolateDestPort IsolateDestAddr
 UseEntryGuards 1
+
+%include /data/data/com.termux/files/usr/etc/tor/torrc-secret
