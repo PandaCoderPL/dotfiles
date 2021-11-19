@@ -1,5 +1,6 @@
 [alias]
 	a = add
+	ae = a -e
 	ba = branch
 	bach = "!f() { \
 		git ba \"$1\" && \
