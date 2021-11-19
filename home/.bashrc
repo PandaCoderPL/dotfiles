@@ -12,6 +12,7 @@ fi
 # Config
 alias bashconfig='vim ${HOME}/.bashrc'
 alias gitconfig='git config --global --edit'
+alias i2pdconfig='vim ${HOME}/.i2pd/i2pd.conf'
 alias sshconfig='vim ${HOME}/.ssh/config'
 alias termuxconfig='vim ${HOME}/.termux/termux.properties'
 alias tmuxconfig='vim ${HOME}/.tmux.conf'

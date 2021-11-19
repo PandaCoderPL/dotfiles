@@ -18,6 +18,7 @@ Repository with my dotfiles.
 * [Bash](http://www.gnu.org/software/bash/) - [
 .bashrc](home/.bashrc)
 * [Git](https://git-scm.com/) - [config](home/.config/git/config)
+* [I2PD](https://i2pd.website/) - [i2pd.conf](home/.i2pd/i2pd.conf)
 * [SSH](https://www.openssh.com/) - [config](home/.ssh/config)
 * [Termux](https://termux.com/) - [termux.properties](home/.termux/termux.properties)
 * [Tmux](https://github.com/tmux/tmux) - [.tmux.conf](home/.tmux.conf)
