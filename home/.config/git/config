@@ -26,7 +26,7 @@
 		git ch master && \
 		git rebase upstream/master; \
 		}; f"
-	fup = fu && p
+	fup = !git fu && git pat
 	p = push
 	pa = push --all
 	pt = push --tags
