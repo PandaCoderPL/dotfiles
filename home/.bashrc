@@ -26,3 +26,5 @@ alias lh='l --human-readable'
 alias ll='lh -l'
 alias la='ll --all'
 alias paste='termux-clipboard-paste'
+
+source ~/.bashrc-secret
