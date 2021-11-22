@@ -1,7 +1,7 @@
 # Tmux
 if [[ -z "${TMUX}" ]]; then
     if ! tmux has-session; then
-        eval $(ssh-agent)
+        eval $(ssh-agent -st 1h)
         tmux new-session -n calculator bc -iq
     else
         tmux new-window
