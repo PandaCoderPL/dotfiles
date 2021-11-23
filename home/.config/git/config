@@ -3,8 +3,8 @@
 	ae = a -e
 	ba = branch
 	bach = "!f() { \
-		git ba \"$1\" && \
-		git ch \"$1\"; \
+		git ba \"$1\" \
+		&& git ch \"$1\"; \
 		}; f"
 	bd = ba -d
 	bfd = ba -D
@@ -19,13 +19,13 @@
 		}; f"
 	cota = "!f() { \
 		local version=\"v$(cat VERSION)\"; \
-		git co \"$1\" && \
-		git ta \"${version}\"; \
+		git co \"$1\" \
+		&& git ta \"${version}\"; \
 		}; f"
 	fu = "!f() { \
-		git fetch upstream && \
-		git ch master && \
-		git rebase upstream/master; \
+		git fetch upstream \
+		&& git ch master \
+		&& git rebase upstream/master; \
 		}; f"
 	fup = !git fu && git pat
 	p = push
