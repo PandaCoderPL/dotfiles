@@ -50,6 +50,7 @@
 	gpgSign = true
 [core]
 	editor = vim
+	gitProxy = git-proxy
 	pager = less
 [include]
 	path = ~/.config/git/config-secret
