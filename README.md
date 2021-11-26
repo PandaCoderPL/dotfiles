@@ -5,11 +5,11 @@ Repository with my dotfiles.
 ## Contents
 
 * [Configuration Files](#configuration-files)
-* [Downloading](#downloading)
+* [How to download?](#how-to-download)
   * [Using Git](#using-git)
   * [Using Curl](#using-curl)
   * [Using Wget](#using-wget)
-* [Installation](#installation)
+* [How to install?](#how-to-install)
 * [Contact](#contact)
 * [License](#license)
 
@@ -25,7 +25,7 @@ Repository with my dotfiles.
 * [Tor](https://www.torproject.org/) - [torrc](usr/etc/tor/torrc)
 * [Vim](https://www.vim.org/) - [.vimrc](home/.vimrc)
 
-## Downloading
+## How to download?
 
 ### Using Git
 
@@ -39,7 +39,7 @@ Repository with my dotfiles.
 
     wget -O - https://codeberg.org/PandaCoderPL/dotfiles/archive/main.tar.gz | tar -xzf -
 
-## Installation
+## How to install?
 
     rsync -qa home/ ~/
 
