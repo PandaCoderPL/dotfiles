@@ -1,21 +1,21 @@
-[Polski](README.pl.md)
+[English](README.md)
 
 # dotfiles
 
-Repository with my dotfiles.
+Repozytorium z moimi plikami konfiguracyjnymi.
 
 ## Contents
 
-* [Configuration Files](#configuration-files)
-* [How to download?](#how-to-download)
-  * [Using Git](#using-git)
-  * [Using Curl](#using-curl)
-  * [Using Wget](#using-wget)
-* [How to install?](#how-to-install)
-* [Contact](#contact)
-* [License](#license)
+* [Pliki konfiguracyjne](#pliki-konfiguracyjne)
+* [Jak pobrać?](#jak-pobrać)
+  * [Używając Git](#używając-git)
+  * [Używając Curl](#używając-curl)
+  * [Używając Wget](#używając-wget)
+* [Jak zainstalować?](#jak-zainstalować)
+* [Kontakt](#kontakt)
+* [Licencja](#licencja)
 
-## Configuration Files
+## Pliki konfiguracyjne
 
 * [Bash](http://www.gnu.org/software/bash/) - [
 .bashrc](home/.bashrc)
@@ -27,28 +27,28 @@ Repository with my dotfiles.
 * [Tor](https://www.torproject.org/) - [torrc](usr/etc/tor/torrc)
 * [Vim](https://www.vim.org/) - [.vimrc](home/.vimrc)
 
-## How to download?
+## Jak pobrać?
 
-### Using Git
+### Używając Git
 
     git clone --depth=1 git://codeberg.org/PandaCoderPL/dotfiles.git
 
-### Using Curl
+### Używając Curl
 
     curl -L https://codeberg.org/PandaCoderPL/dotfiles/archive/main.tar.gz | tar -xzf -
 
-### Using Wget
+### Używając Wget
 
     wget -O - https://codeberg.org/PandaCoderPL/dotfiles/archive/main.tar.gz | tar -xzf -
 
-## How to install?
+## Jak zainstalować?
 
     rsync -qa home/ ~/
 
-## Contact
+## Kontakt
 
-[Contact](https://codeberg.org/PandaCoderPL/PandaCoderPL#contact)
+[Kontakt](https://codeberg.org/PandaCoderPL/PandaCoderPL#contact)
 
-## License
+## Licencja
 
 [MIT](LICENSE)
