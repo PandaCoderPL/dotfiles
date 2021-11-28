@@ -26,5 +26,6 @@ alias lh='l --human-readable'
 alias ll='lh -l'
 alias la='ll --all'
 alias paste='termux-clipboard-paste'
+alias pip='pip --proxy "socks5h://${RANDOM}:${RANDOM}@127.0.0.1:9050"'
 
 source ~/.bashrc-secret
